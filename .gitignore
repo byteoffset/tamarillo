@@ -1,0 +1,9 @@
+# Linux junk files
+*~
+
+# Compiled styles
+dist/
+
+# Node dependencies ignore
+node_modules
+package-lock.json
