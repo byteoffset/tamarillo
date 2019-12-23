@@ -37,12 +37,14 @@
 }
 
 @media (max-width: 1300px) and (min-width: 901px) {
+  @element_width: 200px;
+
   .sidenav {
-    width: 200px;
+    width: @element_width;
   }
 
   .container {
-    margin-left: 230px;
+    margin-left: @element_width + 30px;
     margin-right: 40px;
   }
 }

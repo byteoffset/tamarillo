@@ -1,0 +1,18 @@
+@table_border_col: #ddd;
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid @table_border_col;
+  }
+
+  tr {
+    &:hover {
+      background-color: #dadada;
+    }
+  }
+}
