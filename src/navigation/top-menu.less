@@ -1,0 +1,21 @@
+@menu_color: #36628d;
+@menu_tx_color: #ffff;
+@menu_hv_color: #46474c;
+
+.top-menu {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: @menu_color;
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: @menu_tx_color;
+    padding: 14px 16px;
+    &:hover {
+      background-color: @menu_hv_color;
+    }
+  }
+}
