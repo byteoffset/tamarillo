@@ -1,0 +1,16 @@
+@import "../variables/colors.less";
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid @light-grey;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: @white;
+  padding: 8px 16px 8px 16px;
+  color: @grey;
+
+  &:focus {
+    border: 1px solid fade(@graphite-grey, 90%);
+  }
+}
