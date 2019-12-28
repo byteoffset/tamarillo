@@ -6,14 +6,34 @@
   @transparency: 85%;
 
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   text-decoration: none;
   transition-duration: 0.4s;
   border-radius: @xs-px;
-  padding: @l-px @l-px;
+  padding: @xm-px @xm-px;
   background-color: @white;
   color: @dark-grey;
+
+  &.extra-small {
+    font-size: 9px;
+    padding: @s-px @s-px;
+  }
+
+  &.small {
+    font-size: 11px;
+    padding: @s-px @s-px;
+  }
+
+  &.large {
+    font-size: 16px;
+    padding: @l-px @l-px;
+  }
+
+  &.extra-large {
+    font-size: 18px;
+    padding: @xl-px @xl-px;
+  }
 
   &.blue {
     border: @border-size solid @deep-blue;
