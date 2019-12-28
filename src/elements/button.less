@@ -1,34 +1,92 @@
 @import "../variables/colors.less";
 
 .button {
-  @border-size: 2px;
+  @border-size: 1px;
+  @transparency: 85%;
 
+  cursor: pointer;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   transition-duration: 0.4s;
   border-radius: 4px;
   padding: 10px 10px;
+  background-color: @white;
+  color: @dark-grey;
 
   &.blue {
-    background-color: @white;
-    color: @dark-grey;
     border: @border-size solid @deep-blue;
   
     &:hover {
       background-color: @deep-blue;
       color: @white;
     }
+
+    &.filled {
+      border: none;
+      background-color: @deep-blue;
+      color: @white;
+
+      &:hover {
+        background-color: fade(@deep-blue, @transparency);
+      }
+    }
   }
 
   &.dark-blue {
-    background-color: @white;
-    color: @dark-grey;
     border: @border-size solid @dark-blue;
   
     &:hover {
       background-color: @dark-blue;
       color: @white;
+    }
+
+    &.filled {
+      border: none;
+      background-color: @dark-blue;
+      color: @white;
+
+      &:hover {
+        background-color: fade(@dark-blue, @transparency);
+      }
+    }
+  }
+
+  &.green {
+    border: @border-size solid @green;
+  
+    &:hover {
+      background-color: @green;
+      color: @white;
+    }
+
+    &.filled {
+      border: none;
+      background-color: @green;
+      color: @white;
+
+      &:hover {
+        background-color: fade(@green, @transparency);
+      }
+    }
+  }
+
+  &.red {
+    border: @border-size solid @red;
+  
+    &:hover {
+      background-color: @red;
+      color: @white;
+    }
+
+    &.filled {
+      border: none;
+      background-color: @red;
+      color: @white;
+
+      &:hover {
+        background-color: fade(@red, @transparency);
+      }
     }
   }
 }
