@@ -1,16 +1,14 @@
-@section-margin: 20px;
-@section-padding: 20px;
+@import "../variables/distance.less";
+@import "../variables/colors.less";
 
 .section {
-  @vertical-margin: 12px;
-
-  margin: @section-margin;
-  padding: @section-padding @section-padding;
+  margin: @xxl-px;
+  padding: @xxl-px @xxl-px;
 
   ul {
     list-style-type: circle;
-    margin-top: @vertical-margin;
-    margin-bottom: @vertical-margin;
+    margin-top: @l-px;
+    margin-bottom: @l-px;
   }
 
   @vertical-margin-base: 28px; 
@@ -49,10 +47,8 @@
     margin-bottom: @vertical-margin-base - 14;
   }
 
-  @boxed-section-color: #ffee;
-
   &.boxed {
-    background-color: @boxed-section-color;
-    border-radius: 6px;
+    background-color: @white;
+    border-radius: @xs-px;
   }
 }
