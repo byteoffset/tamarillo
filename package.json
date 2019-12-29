@@ -28,9 +28,7 @@
     "start": "less-watch-compiler"
   },
   "files": [
-    "css",
-    "less",
-    "tiny.less",
+    "dist",
     "LICENSE",
     "README.md"
   ],
