@@ -1,0 +1,48 @@
+@import "../constant/distance.less";
+@import "../constant/colors.less";
+
+.section {
+  margin: @xxl-px;
+  padding: @xl-px @xxl-px;
+
+  @vertical-margin-base: @xxl-px; 
+
+  h1 h2 h3 h4 h5 h6 {
+    font-style: oblique;
+  }
+  
+  h1 {
+    margin-top: @vertical-margin-base - 6;
+    margin-bottom: @vertical-margin-base;
+  }
+  
+  h2 {
+    margin-top: @vertical-margin-base - 10;
+    margin-bottom: @vertical-margin-base - 4;
+  }
+  
+  h3 {
+    margin-top: @vertical-margin-base - 14;
+    margin-bottom: @vertical-margin-base - 8;
+  }
+  
+  h4 {
+    margin-top: @vertical-margin-base - 14;
+    margin-bottom: @vertical-margin-base - 10;
+  }
+  
+  h5 {
+    margin-top: @vertical-margin-base - 16;
+    margin-bottom: @vertical-margin-base - 12;
+  }
+  
+  h6 {
+    margin-top: @vertical-margin-base - 18;
+    margin-bottom: @vertical-margin-base - 14;
+  }
+
+  &.boxed {
+    border-radius: @xs-px;
+    border: 1px solid @light-grey;
+  }
+}

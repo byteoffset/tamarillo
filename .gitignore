@@ -7,3 +7,6 @@ dist/
 # Node dependencies ignore
 node_modules
 package-lock.json
+
+# Test site
+index.html

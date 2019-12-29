@@ -1,0 +1,21 @@
+@import "../constant/distance.less";
+@import "../constant/colors.less";
+
+@table-border-color: @light-grey;
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: @m-px;
+    text-align: left;
+    border-bottom: 1px solid @table-border-color;
+  }
+
+  tr {
+    &:hover {
+      background-color: @light-grey;
+    }
+  }
+}

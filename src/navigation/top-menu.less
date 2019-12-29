@@ -1,0 +1,21 @@
+@import "../constant/distance.less";
+@import "../constant/colors.less";
+
+.top-menu {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: @dark-blue;
+
+  a {
+    transition-duration: 0.4s;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: @white;
+    padding: @l-px @l-px;
+    &:hover {
+      background-color: @graphite-grey;
+    }
+  }
+}
