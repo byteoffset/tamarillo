@@ -1,7 +1,7 @@
 @import "../constant/distance.less";
 @import "../constant/colors.less";
 
-.input {
+.textarea {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid @light-grey;
@@ -10,6 +10,9 @@
   background-color: @white;
   padding: @m-px @l-px @m-px @l-px;
   color: @grey;
+  min-height: 100px;
+  max-width: 100%;
+  min-width: 170px;
 
   &:focus {
     border: 1px solid fade(@graphite-grey, 90%);
