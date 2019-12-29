@@ -1,7 +1,12 @@
-# tiny-less
+# tiny-css
 
-`tiny-less` is a project which combine simplicity of less and css flexibility. Created styles may help you to create clean and nice-looking web layouts.
+`tiny-css` is a project which combine simplicity of less and css flexibility. Created styles may help you to create clean and nice-looking web layouts.
 <br>
+
+## Quick install
+```
+npm install --save tiny-css
+```
 
 ## Assumptions
 * Should be lightweight
