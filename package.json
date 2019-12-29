@@ -1,6 +1,6 @@
 {
   "name": "tiny-less",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "Konrad Okarmus",
     "email": "kok4rmus@gmail.com"
@@ -28,9 +28,7 @@
     "start": "less-watch-compiler"
   },
   "files": [
-    "css",
-    "less",
-    "tiny.less",
+    "dist",
     "LICENSE",
     "README.md"
   ],
