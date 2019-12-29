@@ -1,5 +1,5 @@
 {
   "watchFolder": "src",
   "outputFolder": "dist",
-  "mainFile": "tiny.less"
+  "mainFile": "tamarillo.less"
 }
