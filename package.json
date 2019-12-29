@@ -1,13 +1,13 @@
 {
-  "name": "tiny-less",
-  "version": "0.2.1",
+  "name": "tiny-css",
+  "version": "0.1.0",
   "author": {
     "name": "Konrad Okarmus",
     "email": "kok4rmus@gmail.com"
   },
   "description": "Tiny CSS framework",
   "license": "MIT",
-  "repository": "https://github.com/okarmusk/tiny-less",
+  "repository": "https://github.com/okarmusk/tiny-css",
   "main": "tiny.lsss",
   "unpkg": "dist/tiny.css",
   "style": "dist/tiny.min.css",
