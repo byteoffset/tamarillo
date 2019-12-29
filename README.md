@@ -1,7 +1,12 @@
 # tiny-less
 
-`tiny-less` is a project which combine simplicity of less and css flexibility. Created styles may help you to create clean and nice looking web layouts.
+`tiny-less` is a project which combine simplicity of less and css flexibility. Created styles may help you to create clean and nice-looking web layouts.
 <br>
+
+## Assumptions
+* Should be lightweight
+* Must be easy to learn and understand
+* Should be ergonomic
 
 ## What do you need before start?
 * Node.js > 10.x.x
@@ -28,7 +33,7 @@ npm run build-cleancss
 ```
 
 ### Dynamic compilation
-In case when you would like to start development and get your changes just in time in `tiny.css` file, please run:
+In case when you would like to start development and get your changes in `tiny.css` just in time, please run:
 ```
 npm run start
 ```
