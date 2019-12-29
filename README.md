@@ -1,11 +1,11 @@
-# tiny-css
+# tamarillo
 
-`tiny-css` is a project which combine simplicity of less and css flexibility. Created styles may help you to create clean and nice-looking web layouts.
+`tamarillo` is a project which combine simplicity of less and css flexibility. Created styles may help you to create clean and nice-looking web layouts.
 <br>
 
 ## Quick install
 ```
-npm install --save tiny-css
+npm install --save tamarillo
 ```
 
 ## Assumptions
@@ -29,16 +29,16 @@ If you installed dependencies, you are able to compile sources with:
 ```
 npm run build
 ```
-Ready to use. Directory `dist` and file `tiny.less` should be created.
+Ready to use. Directory `dist` and file `tamarillo.less` should be created.
 
-### Build tiny.min.css
-To create `tiny.min.css` file, please run:
+### Build tamarillo.min.css
+To create `tamarillo.min.css` file, please run:
 ```
 npm run build-cleancss
 ```
 
 ### Dynamic compilation
-In case when you would like to start development and get your changes in `tiny.css` just in time, please run:
+In case when you would like to start development and get your changes in `tamarillo.css` just in time, please run:
 ```
 npm run start
 ```

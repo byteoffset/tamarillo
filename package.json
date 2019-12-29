@@ -1,16 +1,16 @@
 {
-  "name": "tiny-css",
+  "name": "tamarillo",
   "version": "0.1.0",
   "author": {
     "name": "Konrad Okarmus",
     "email": "kok4rmus@gmail.com"
   },
-  "description": "Tiny CSS framework",
+  "description": "Tamarillo css framework",
   "license": "MIT",
-  "repository": "https://github.com/okarmusk/tiny-css",
-  "main": "tiny.lsss",
-  "unpkg": "dist/tiny.css",
-  "style": "dist/tiny.min.css",
+  "repository": "https://github.com/okarmusk/tamarillo",
+  "main": "tamarillo.less",
+  "unpkg": "dist/tamarillo.css",
+  "style": "dist/tamarillo.min.css",
   "keywords": [
     "css",
     "less",
@@ -23,8 +23,8 @@
     "less-watch-compiler": "^1.14.1"
   },
   "scripts": {
-    "build": "lessc src/tiny.less dist/tiny.css",
-    "build-cleancss": "lessc src/tiny.less dist/tiny.min.css --clean-css",
+    "build": "lessc src/tamarillo.less dist/tamarillo.css",
+    "build-cleancss": "lessc src/tamarillo.less dist/tamarillo.min.css --clean-css",
     "start": "less-watch-compiler"
   },
   "files": [
