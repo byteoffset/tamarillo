@@ -5,7 +5,11 @@
   display: flex;
   position: fixed;
   width: 100%;
-  background-color: @dark-blue;
+  background-color: @red;
+
+  &.blue {
+    background-color: @deep-blue;
+  }
 
   .to-right {
     margin-left: auto;
@@ -18,6 +22,7 @@
     display: inline-block;
     color: @white;
     padding: @l-px @l-px;
+
     &:hover {
       background-color: @graphite-grey;
     }

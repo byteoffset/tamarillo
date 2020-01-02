@@ -1,6 +1,6 @@
 @import "../constant/distance.less";
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
   .left-side-menu {
     display: none;
   }
@@ -16,5 +16,23 @@
   .container {
     flex: 0 0 auto;
     padding: @m-px @m-px @m-px @m-px;
+  }
+
+  .tabs {
+    overflow: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  .row {
+    max-width: 1600px;
+    flex-basis: auto;
+    flex-grow: 1;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container {
+    scrollbar-width: none;
   }
 }

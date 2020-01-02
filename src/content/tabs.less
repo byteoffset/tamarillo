@@ -1,0 +1,32 @@
+@import "../constant/distance.less";
+@import "../constant/colors.less";
+
+.tabs {
+  margin: @xxl-px;
+  padding-top: @xl-px;
+  padding-bottom: @xl-px;
+
+  .tab {
+    font-size: large;
+    float: left;
+    cursor: pointer;
+    padding: @xm-px @xm-px;
+    color: @deep-blue;
+
+    &.active {
+      border-bottom: 1px solid @red;
+    }
+
+    &:hover {
+      border-bottom: 1px solid @bloody-red;
+      transition: 0.3s;
+      color: @navy-blue;
+    }
+  }
+}
+
+.tab-content {
+  display: none;
+  margin: @xxl-px;
+  padding: @xl-px @xxl-px;
+}
