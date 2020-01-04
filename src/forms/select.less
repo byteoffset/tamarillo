@@ -1,0 +1,19 @@
+@import "../constant/distance.less";
+@import "../constant/colors.less";
+
+.select {
+  color: @dark-grey;
+  min-width: 150px;
+  padding: @m-px @l-px @m-px @l-px;
+  font-size: medium;
+  border: 1px solid @light-grey;
+  border-radius: @xs-px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: @white;
+
+  &:focus {
+    border: 1px solid fade(@graphite-grey, 90%);
+  }
+}
