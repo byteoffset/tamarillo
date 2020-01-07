@@ -1,12 +1,19 @@
 @import "../constant/distance.less";
 @import "../constant/colors.less";
 
-.left-side-menu {
+.side-menu {
   flex: 0 0 280px;
-  padding: 60px 16px;
-  border-right: 1px solid @light-grey;
+  padding: 2*@xxxl-px @xl-px;
 
-  a {
+  &.right-bordered {
+    border-right: 1px solid @light-grey;
+  }
+
+  &.left-bordered {
+    border-left: 1px solid @light-grey;
+  }
+
+  .item {
     transition-duration: 0.3s;
     text-decoration: none;
     color: @dark-grey;
@@ -18,5 +25,12 @@
       background-color: @light-grey;
       border-radius: @xs-px;
     }
+  }
+
+  .items-group-label {
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    color: @faded-grey;
   }
 }
