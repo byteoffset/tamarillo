@@ -1,6 +1,6 @@
 {
   "name": "tamarillo",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": {
     "name": "Konrad Okarmus",
     "email": "kok4rmus@gmail.com"
@@ -18,9 +18,9 @@
     "framework"
   ],
   "devDependencies": {
-    "less": "^3.10.3",
+    "less": "^3.13.0",
     "less-plugin-clean-css": "^1.5.1",
-    "less-watch-compiler": "^1.14.1"
+    "less-watch-compiler": "^1.14.6"
   },
   "scripts": {
     "build": "lessc src/tamarillo.less dist/tamarillo.css",

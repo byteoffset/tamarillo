@@ -14,7 +14,7 @@ npm install --save tamarillo
 * Should be ergonomic
 
 ## What do you need before start?
-* Node.js > 10.x.x
+* Node.js > 14.x.x
 * Internet access
 
 ## Just develop
